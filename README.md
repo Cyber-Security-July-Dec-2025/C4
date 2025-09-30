@@ -76,7 +76,7 @@ Exchange public keys:
 
 All runtime parameters are stored in `config.ini`.
 
-### A & B on the same hotspot (LAN)
+### On 2 devices A & B -
 
 If:
 - Machine A IP = 172.20.10.3
