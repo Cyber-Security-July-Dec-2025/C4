@@ -98,29 +98,7 @@ listen_ip=172.20.10.2
 listen_port=6001
 peer_ip=172.20.10.3
 peer_port=6000
-```
-
-### A & B on different networks
-
-Use port forwarding on one machine's router (server).
-
-Or install a VPN (Tailscale / Zerotier) and use VPN IPs directly.
-
-Example with port forwarding on Machine B:
-- Router forwards `203.0.113.50:6001` → `172.20.10.2:6001`
-
-**Machine B:**
-```ini
-listen_ip=0.0.0.0
-listen_port=6001
-```
-
-**Machine A:**
-```ini
-peer_ip=203.0.113.50
-peer_port=6001
-```
-
+```
 ---
 
 ## ▶️ Running
